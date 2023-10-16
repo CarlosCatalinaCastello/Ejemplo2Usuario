@@ -22,7 +22,7 @@ class ViewController: UIViewController {
         listaUsuarios = []
     }
     
-    @IBAction func registrarUsuarios(_ sender: Any) {
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let email: String = txtEmail.text!
         let password: String = txtPassword.text!
         
@@ -34,8 +34,12 @@ class ViewController: UIViewController {
         
         txtEmail.text=""
         txtPassword.text=""
+        
+        if segue.identifier == "VER" {
+            let destino = segue.destination as! UsuarioController
+            destino.usuario = listaUsuarios[listaUsuarios.count-1]
+        }
     }
-    
     
     
 }

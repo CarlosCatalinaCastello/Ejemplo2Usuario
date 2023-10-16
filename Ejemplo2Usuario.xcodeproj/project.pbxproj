@@ -17,6 +17,7 @@
 		A569E8D22ACB06BD0057C422 /* Ejemplo2UsuarioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A569E8D12ACB06BD0057C422 /* Ejemplo2UsuarioUITests.swift */; };
 		A569E8E62ACB07770057C422 /* Usuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = A569E8E52ACB07770057C422 /* Usuario.swift */; };
 		A569E8EC2ACB0BCF0057C422 /* Toast in Frameworks */ = {isa = PBXBuildFile; productRef = A569E8EB2ACB0BCF0057C422 /* Toast */; };
+		A56D6FB62ADD8A7F00BED1C0 /* UsuarioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56D6FB52ADD8A7F00BED1C0 /* UsuarioController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		A569E8D12ACB06BD0057C422 /* Ejemplo2UsuarioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ejemplo2UsuarioUITests.swift; sourceTree = "<group>"; };
 		A569E8D32ACB06BD0057C422 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A569E8E52ACB07770057C422 /* Usuario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Usuario.swift; sourceTree = "<group>"; };
+		A56D6FB52ADD8A7F00BED1C0 /* UsuarioController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsuarioController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 				A569E8B82ACB06BD0057C422 /* Assets.xcassets */,
 				A569E8BA2ACB06BD0057C422 /* LaunchScreen.storyboard */,
 				A569E8BD2ACB06BD0057C422 /* Info.plist */,
+				A56D6FB52ADD8A7F00BED1C0 /* UsuarioController.swift */,
 			);
 			path = Ejemplo2Usuario;
 			sourceTree = "<group>";
@@ -280,6 +283,7 @@
 				A569E8E62ACB07770057C422 /* Usuario.swift in Sources */,
 				A569E8B42ACB06BB0057C422 /* ViewController.swift in Sources */,
 				A569E8B02ACB06BB0057C422 /* AppDelegate.swift in Sources */,
+				A56D6FB62ADD8A7F00BED1C0 /* UsuarioController.swift in Sources */,
 				A569E8B22ACB06BB0057C422 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
